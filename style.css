@@ -1,0 +1,15 @@
+.header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.signUp {
+    background-color: #3882F6;
+    font-size: 15px;
+
+    color: #F9FAF8;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+
+}
