@@ -6,14 +6,14 @@
     background-color: #1F2937;
     color: #F9FAF8;
     display: flex;
-    flex-direction: column;
-
+    flex-flow: column nowrap;
 }
 
 .topBar{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin: 5px 50px 20px 50px;
 }
 
 .logo {
@@ -29,7 +29,7 @@
     margin-left: auto;
 }
 
-.middleBar{
+.secondBar {
 display: flex;
 flex-direction: row;
 justify-content: space-between;
@@ -39,7 +39,9 @@ justify-content: space-between;
     display: flex;
     font: 48px extra-bold;
     flex-flow: column wrap;
-    margin-left: auto;
+    justify-content: left;
+    margin-right: auto;
+    max-width: 45%;
 }
 
 .heroPar {
@@ -49,15 +51,25 @@ justify-content: space-between;
 
 .hChunkR{
     display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    margin-left: auto;
+}
+
+.headerImg {
+    max-width: 45%;
 }
 
 .signUp {
+    display: flex;
     background-color: #3882F6;
     font-size: 15px;
-
     color: #F9FAF8;
     border: none;
     border-radius: 5px;
-    padding: 10px 20px;
+    padding: 20px;
+    height: 30px;
+    width: 120px;
+//why can't I get sign up centered?
 
 }
