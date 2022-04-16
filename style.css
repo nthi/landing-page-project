@@ -6,16 +6,45 @@
     background-color: #1F2937;
     color: #F9FAF8;
     display: flex;
+    flex-direction: column;
+
 }
 
 .topBar{
-
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
+.logo {
+    font-size: 24px;
+    display: flex;
+    margin-right: auto;
+}
+
+.headerRightLinks {
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    margin-left: auto;
+}
+
+.middleBar{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
 
 .hChunkL {
     display: flex;
+    font: 48px extra-bold;
+    flex-flow: column wrap;
+    margin-left: auto;
+}
 
+.heroPar {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .hChunkR{
