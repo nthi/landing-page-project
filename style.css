@@ -14,6 +14,7 @@
     flex-direction: row;
     justify-content: space-between;
     margin: 5px 50px 20px 50px;
+    flex: auto;
 }
 
 .logo {
@@ -33,15 +34,17 @@
 display: flex;
 flex-direction: row;
 justify-content: space-between;
+column-gap: 50px;
+flex: auto;
 }
 
 .hChunkL {
     display: flex;
-    font: 48px extra-bold;
+    font: 48px;
     flex-flow: column wrap;
     justify-content: left;
     margin-right: auto;
-    max-width: 45%;
+    max-width: 50%;
 }
 
 .heroPar {
@@ -57,7 +60,7 @@ justify-content: space-between;
 }
 
 .headerImg {
-    max-width: 45%;
+    max-width: 50%;
 }
 
 .signUp {
