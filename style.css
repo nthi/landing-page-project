@@ -43,6 +43,7 @@ flex: auto;
     font: 48px;
     flex-flow: column wrap;
     justify-content: left;
+    margin-left: 50px;
     margin-right: auto;
     max-width: 50%;
 }
@@ -56,11 +57,15 @@ flex: auto;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
-    margin-left: auto;
+    align-items: center;
 }
 
 .headerImg {
-    max-width: 50%;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    max-width: 75%;
 }
 
 .signUp {
