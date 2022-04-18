@@ -42,7 +42,8 @@ flex: auto;
     display: flex;
     font: 48px;
     flex-flow: column wrap;
-    justify-content: left;
+    justify-content: center;
+    align-items: flex-start;
     margin-left: 50px;
     margin-right: auto;
     max-width: 50%;
@@ -78,6 +79,6 @@ flex: auto;
     padding: 20px;
     height: 30px;
     width: 120px;
-//why can't I get sign up centered?
-
+    align-items: center;
+    justify-content: center;
 }
